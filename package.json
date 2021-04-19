@@ -1,0 +1,19 @@
+{
+  "name": "farbesquad.random",
+  "version": "1.0.1",
+  "description": "image-gif-nsfw module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donboz/farbesquad.random.git"
+  },
+  "author": "donboz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Donboz/farbesquad.random/issues"
+  },
+  "homepage": "https://github.com/Donboz/farbesquad.random#readme"
+}
