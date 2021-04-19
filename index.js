@@ -8,8 +8,9 @@ const api = "16GnF6kqQInS7QKMd8HPjcXZX2udEv40"
  */
     async function random(options = {}) {
         if(!options.tag) throw new Error("tag yeri boş kalamaz")
-         return await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}&tag=${options.tag}`).then(async a => await a.data.images.original.url).catch(err => console.error(errmsg + err)) ;
-        
+         const a = await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}&tag=${options.tag}`)
+         const aa = await a.data.images.original.url
+         return await aa
         } // FarbeSquad Studios
 
         /**
@@ -17,8 +18,9 @@ const api = "16GnF6kqQInS7QKMd8HPjcXZX2udEv40"
  * @returns {Data}
  */
     async function otorandom() {
-        return await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}`).then(async a => await a.data.images.original.url).catch(err => console.error(errmsg + err));
-        
+        const a = await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}}`)
+        const aa = await a.data.images.original.url
+        return await aa
         } // FarbeSquad Studios
 
 
@@ -28,8 +30,10 @@ const api = "16GnF6kqQInS7QKMd8HPjcXZX2udEv40"
  */
     async function search(options = {}) {
         if(!options.query) throw new Error("arama yeri boş kalamaz")
-         return await axios.get(`https://api.giphy.com/v1/gifs/search?&api_key=${api}&q=${options.query}`).then(async a => await a.data.images.original.url).catch(err => console.error(errmsg + err));
-        } // FarbeSquad Studios
+        const a = await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}&q=${options.query}`)
+        const aa = await a.data.images.original.url
+        return await aa
+    } // FarbeSquad Studios
    
 
 module.exports = {random,otorandom,search}

@@ -1,6 +1,6 @@
 {
   "name": "farbesquad.random",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "image-gif-nsfw module",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/Donboz/farbesquad.random/issues"
   },
-  "homepage": "https://github.com/Donboz/farbesquad-random#readme"
+  "homepage": "https://github.com/Donboz/farbesquad-random#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gif-img",
+    "lib"
+  ]
 }
