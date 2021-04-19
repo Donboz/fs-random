@@ -1,7 +1,35 @@
 const axios = require("axios");
-const errmsg = "Herhangi bir sıkıntımı oldum / any problems ? discord: ! ! Donboz#7323"
-async function hentai() {
-    return await axios.get('https://nekobot.xyz/api/image?type=hentai').then(async a => await a.data.message).catch(err => console.error(errmsg + err))
-    } // FarbeSquad Studios
+const errmsg = "Herhangi bir sıkıntımı oldu / any problems ? discord: ! ! Donboz#7323 \n  "
+const api = "16GnF6kqQInS7QKMd8HPjcXZX2udEv40"
 
-module.exports = {hentai}
+/**
+ * @param {object} options 
+ * @returns {Data}
+ */
+    async function random(options = {}) {
+        if(!options.tag) throw new Error("tag yeri boş kalamaz")
+         return await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}&tag=${options.tag}`).then(async a => await a.data.images.original.url).catch(err => console.error(errmsg + err)) ;
+        
+        } // FarbeSquad Studios
+
+        /**
+ * @param {object} options 
+ * @returns {Data}
+ */
+    async function otorandom() {
+        return await axios.get(`https://api.giphy.com/v1/gifs/random?&api_key=${api}`).then(async a => await a.data.images.original.url).catch(err => console.error(errmsg + err));
+        
+        } // FarbeSquad Studios
+
+
+        /**
+ * @param {object} options 
+ * @returns {Data}
+ */
+    async function search(options = {}) {
+        if(!options.query) throw new Error("arama yeri boş kalamaz")
+         return await axios.get(`https://api.giphy.com/v1/gifs/search?&api_key=${api}&q=${options.query}`).then(async a => await a.data.images.original.url).catch(err => console.error(errmsg + err));
+        } // FarbeSquad Studios
+   
+
+module.exports = {random,otorandom,search}
