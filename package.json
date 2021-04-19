@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Donboz/farbesquad.random.git"
+    "url": "git+https://github.com/Donboz/farbesquad-random.git"
   },
   "author": "donboz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Donboz/farbesquad.random/issues"
   },
-  "homepage": "https://github.com/Donboz/farbesquad.random#readme"
+  "homepage": "https://github.com/Donboz/farbesquad-random#readme"
 }
