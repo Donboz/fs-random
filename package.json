@@ -1,6 +1,6 @@
 {
   "name": "farbesquad.random",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "image-gif-nsfw module",
   "main": "index.js",
   "scripts": {
