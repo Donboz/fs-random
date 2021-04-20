@@ -1,60 +1,64 @@
 # farbesquad-random
 
-`Rastegele gif ve resim atan modül `
+Rastegele gif ve resim atan modül 
 
 # Nasıl indirilir
 
-`npm install fs-random --save`
+npm install fs-random --save
 
 # Neden farbesquad-random
 
-`Geniş kullanımlı , giphy api, nekobot api, ve kararlı yapıda`
+Geniş kullanımlı , giphy api, nekobot api, ve kararlı yapıda
 
 # Methodlar
 
+komut yaparken;
 Hepsinin başında await olmalı !!!
-
-`random()`(gif)
-`search("query:")`(gif)
-`srandom()`(stickers)
-`ssearch("query:")`(stickers)
-`hentai()`(nsfw)
-`ass()`(nsfw)
-`pussy()`(nsfw)
-`anal()`(nsfw)
-`kanna()`(nsfw)
-`four()`(nsfw)
-`hanal()`(nsfw)
-`boobs()`(nsfw)
-`thigh()`(nsfw)
-`tentacle()`(nsfw)
-`hboobs()`(nsfw)
-`holo()`(nsfw)
-`hass()`(nsfw)
-`pgif()`(nsfw)
-`hthigh()`(nsfw)
-`yaoi()`(nsfw)
-`hneko()`(nsfw)
-`neko()`(nsfw)
-`hkitsune()`(nsfw)
-`kemonomimi()`(nsfw)
-
-# Komutlar v1.0.0
+```js
+random() 
+search({query:})
+srandom()
+ssearch({query:)
+hentai()
+ass()
+pussy()
+anal()
+kanna()
+four()
+hanal()
+boobs()
+thigh()
+tentacle()
+hboobs()
+holo()
+hass()
+pgif()
+hthigh()
+yaoi()
+hneko()
+neko()
+hkitsune()
+kemonomimi()
+```
+# Komutlar v1.0.4
 
 ```js
 const fbr = require("fs-random")
 
+// eğer await olmassa veriyi çekemez
 
-let gif1 = fbr.random()
+//örnek #1
+let gif1 = await fbr.random()
 const e1 = new Discord.MessageEmbed()
 .setImage(gif1)
 
+message.channel.send(e1)
 
-let gif2 = fbr.search({query:""})
+//örnek #2
+let gif2 = await fbr.search({query:""})
 const e2 = new Discord.MessageEmbed()
 .setImage(gif2)
 
-message.channel.send(e1)
 message.channel.send(e2)
 
 ```
