@@ -4,7 +4,7 @@
 
 # Nasıl indirilir
 
-`npm install fb-random --save`
+`npm install fs-random --save`
 
 # Neden farbesquad-random
 
@@ -42,7 +42,7 @@ Hepsinin başında await olmalı !!!
 # Komutlar v1.0.0
 
 ```js
-const fbr = require("fb-random")
+const fbr = require("fs-random")
 
 
 let gif1 = fbr.random()
