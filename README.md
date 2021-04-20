@@ -18,7 +18,7 @@ Hepsinin başında await olmalı !!!
 random() 
 search({query:})
 srandom()
-ssearch({query:)
+ssearch({query:})
 hentai()
 ass()
 pussy()
@@ -40,7 +40,7 @@ neko()
 hkitsune()
 kemonomimi()
 ```
-# Komutlar v1.0.4
+# Komutlar v1.0.5
 
 ```js
 const fbr = require("fs-random")
