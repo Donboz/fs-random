@@ -1,6 +1,6 @@
 {
   "name": "fs-random",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "image-gif-nsfw module",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Donboz/farbesquad-random.git"
+    "url": "git+https://github.com/Donboz/fs-random.git"
   },
   "author": "donboz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Donboz/farbesquad.random/issues"
+    "url": "https://github.com/Donboz/fs-random/issues"
   },
-  "homepage": "https://github.com/Donboz/farbesquad-random#readme",
+  "homepage": "https://github.com/Donboz/fs-random#readme",
   "dependencies": {
     "axios": "^0.21.1"
   },
