@@ -4,21 +4,45 @@
 
 # Nasıl indirilir
 
-`npm install farbesquad.random --save`
+`npm install fb-random --save`
 
 # Neden farbesquad-random
 
-`Geniş kullanımlı , giphy api, ve kararlı yapıda`
+`Geniş kullanımlı , giphy api, nekobot api, ve kararlı yapıda`
 
 # Methodlar
 
-`random`
-`search`
+Hepsinin başında await olmalı !!!
+
+`random()`(gif)
+`search("query:")`(gif)
+`srandom()`(stickers)
+`ssearch("query:")`(stickers)
+`hentai()`(nsfw)
+`ass()`(nsfw)
+`pussy()`(nsfw)
+`anal()`(nsfw)
+`kanna()`(nsfw)
+`four()`(nsfw)
+`hanal()`(nsfw)
+`boobs()`(nsfw)
+`thigh()`(nsfw)
+`tentacle()`(nsfw)
+`hboobs()`(nsfw)
+`holo()`(nsfw)
+`hass()`(nsfw)
+`pgif()`(nsfw)
+`hthigh()`(nsfw)
+`yaoi()`(nsfw)
+`hneko()`(nsfw)
+`neko()`(nsfw)
+`hkitsune()`(nsfw)
+`kemonomimi()`(nsfw)
 
 # Komutlar v1.0.0
 
 ```js
-const fbr = require("farbesquad-random")
+const fbr = require("fb-random")
 
 
 let gif1 = fbr.random()
