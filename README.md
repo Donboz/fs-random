@@ -17,7 +17,7 @@
 
 # Komutlar v1.0.0
 
-```
+```js
 const fbr = require("farbesquad-random")
 
 
