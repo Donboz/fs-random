@@ -1,6 +1,6 @@
 # farbesquad-random
 
-***Rastegele gif ve resim atan modül*** 
+![***Rastegele gif ve resim atan modül*** ](pngs/indir.png)
 > NPM Linki [fs-random](https://npmjs.org/package/fs-random)
 
 # Nasıl indirilir
