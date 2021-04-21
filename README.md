@@ -1,14 +1,19 @@
-## farbesquad-random
+# farbesquad-random
 
-Rastegele gif ve resim atan modül 
+***Rastegele gif ve resim atan modül*** 
+> NPM Linki fs-random[https://npmjs.org/package/fs-random]
 
 # Nasıl indirilir
 
-npm install fs-random --save
+- [x] npm install fs-random --save
 
 # Neden farbesquad-random
 
-Geniş kullanımlı , giphy api, nekobot api, ve kararlı yapıda
+- geniş kullanımlı
+- giphy api
+- nekobot api
+- tenor api
+- fazlası
 
 # Methodlar
 
@@ -62,3 +67,10 @@ const e2 = new Discord.MessageEmbed()
 message.channel.send(e2)
 
 ```
+
+# Nasıl Destek olurum 
+1. Sadece modülü paylaşarak veya discord sunucumuza gelerek link[https://discord.gg/ZaN4PdEVPF]
+
+#Son(End)
+--- herhangi bir fayda dokunmuşsa ne güzel
+--- Other languages support soon
