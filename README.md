@@ -2,6 +2,7 @@
 
 ![***Rastegele gif ve resim atan modül*** ](pngs/indir.png)
 > NPM Linki [fs-random](https://npmjs.org/package/fs-random)
+> ***Rastegele gif ve resim atan modül*** 
 
 # Nasıl indirilir
 
