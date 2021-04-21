@@ -1,7 +1,7 @@
 # farbesquad-random
 
 ***Rastegele gif ve resim atan modül*** 
-> NPM Linki fs-random[https://npmjs.org/package/fs-random]
+> NPM Linki [fs-random](https://npmjs.org/package/fs-random)
 
 # Nasıl indirilir
 
@@ -69,8 +69,8 @@ message.channel.send(e2)
 ```
 
 # Nasıl Destek olurum 
-1. Sadece modülü paylaşarak veya discord sunucumuza gelerek link[https://discord.gg/ZaN4PdEVPF]
+1. Sadece modülü paylaşarak veya discord sunucumuza gelerek [link](https://discord.gg/ZaN4PdEVPF)
 
 #Son(End)
---- herhangi bir fayda dokunmuşsa ne güzel
---- Other languages support soon
+- Herhangi bir fayda dokunmuşsa ne güzel bana 
+- Other languages support soon
